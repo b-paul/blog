@@ -1,0 +1,21 @@
+a {
+  text-decoration: none
+}
+
+$link-colour: #fcc;
+$link-hover-colour: #caa;
+
+a:link {
+  color: $link-colour;
+}
+a:visited {
+  color: $link-colour;
+}
+a:hover {
+  color: $link-hover-colour;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+}
