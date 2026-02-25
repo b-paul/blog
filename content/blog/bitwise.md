@@ -14,5 +14,16 @@ The techniques applied here will work for smaller boards, and can be extended to
 
 ## Floodfill
 
+```rs
+fn floodfill(mut bb: u64) -> u64 {
+    let mut last = !bb
+    while last != bb {
+        last = bb;
+        bb |= (last & 0x0101010101010101) >> 1;
+        bb |= (last & 0x8080808080808080) << 1;
+        bb |= last >> 8;
+    }
+}
+```
 
 # AOC 2024 day 18
