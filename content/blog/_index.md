@@ -4,4 +4,4 @@ sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
 +++
-these are my blog posts.
+blog posts (or similar)
