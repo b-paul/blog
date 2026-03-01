@@ -396,7 +396,7 @@ for i in range(9):
     clear_record(i)
 ```
 now when we make more allocations, the tcache entries will be used up and then an entry from the unsorted (or whatever it is) bin will be taken.
-we can then read the `tcache_next` and `fd` fields from each entry to et a tcache leak and libc leak!
+we can then read the `tcache_next` and `fd` fields from each entry to get a tcache leak and libc leak!
 note all magical offsets that you see will have been computed using gdb.
 ```py
 for _ in range(9):
