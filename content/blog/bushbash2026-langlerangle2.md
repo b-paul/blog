@@ -419,7 +419,7 @@ for i in range(9):
     if not progr:
         raise "oops"
 ```
-compiling was very slow so this took ages (like a few hours)
+compiling was very slow
 
 and in the end the password was `ma5B3_sf1NAe_neXt?`.
 apparently sfinae is some c++ thing and i was terrified that this password hinted at the existence of a soon to be released third c++ template challenge in the second wave of challenges, but fortunately there was not any!
