@@ -7,7 +7,7 @@ warning this post sucks i wrote it in like 15 minutes
 
 this weekend bushbash ctf ran!
 it's a ctf run by the anu (australian national university) computer science club which is awesome!!
-i ended up not doing too many challenges because my team mates were too quick but i did do this one with an apparently very unintended solution!
+i ended up not doing too many challenges because my teammates were too quick but i did do this one with an apparently very unintended solution!
 there is also a writeup comp so yknow i have to (but the prize is claude code so ....... idk... i don't exactly want claude code lol)
 
 anyways the challenge was called \langle\rangle\langle\rangle\langle\rangle\langle\rangle\langle\rangle\langle\rangle (yeah it's a very long name the name actually didn't fit into the box of the challenge description) and was the second c++ template challenge after a challenge called just \langle\rangle\langle\rangle (which i didn't do or even look at).
@@ -293,7 +293,7 @@ oh yeah i forgot to mention the challenge description gave two lists of numbers
 key: [10, 21, 99, 4, 534, 24, 63, 57, 102, 38, 0, 123, 53, 674, 12, 57]
 message: [221, 75, 97, 125, 30, 124, 51, 122, 15, 186, 39, 46, 74, 175, 120, 83, 219, 165]
 ```
-so the printed numbers are probably a message for a different input, and the message given in the challenge descriptio is probably the encoded message of the flag!
+so the printed numbers are probably a message for a different input, and the message given in the challenge description is probably the encoded message of the flag!
 
 looking through the ginormous template mess, we see something that looks a little tiny bit readable:
 ```cpp
