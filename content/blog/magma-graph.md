@@ -55,7 +55,7 @@ a monoid homomorphism would have to preserve identities, so we would need to som
 although in the path semigroup, self loops act as identities when defined, in a partial monoid we require the identity to act as one to all elements... what to do?
 
 well, we could identify all of the self loops in $V \times V$!
-now we can work in some set $\mathcal{E} = V \times V / {\sim}$ with ${\sim} = \\{(v, v) | v \in V\\}$ (an equivalence relation lol) and use the original semigroup structure (or maybe do a coequaliser idk) with the quotiented self loops acting as the identity.
+now we can work in some set $\mathcal{E} = V \times V / {\sim}$ with ${\sim} = \\{((v, v), (v', v')) | v, v' \in V\\}$ (an equivalence relation lol) and use the original semigroup structure (or maybe do a coequaliser idk) with the quotiented self loops acting as the identity.
 it turns out that this indeed forms a partial monoid, hurray!
 as we said before, this now means a partial monoid homomorphism from this monoid would be a labelling respecting the monoid structure while also sending loops to the identity!
 how cool is that!
