@@ -19,8 +19,12 @@ there is a category with objects being sets and morphisms being partial function
 to see this, recall that a partial function $f : A \rightharpoondown B$ is equivalently a function $\hat{f} : A \to M B$ where $M$ is the maybe monad ($X \mapsto X \sqcup 1$).
 if $\hat{f}$ maps to the added empty term at some element, then $f$ isn't defined there.
 hence, the category of partial functions is the kleisli category of the maybe monad!
-in particular, limits in this category are limits of sets in the usual sense, since the forgetful functor will be a right adjoint.
-hence the category of partial functions is cartesian monoidal, and we can talk about magmas, semigroups and monoids in it!
+although this category does not have the same limits as the base category, the cartesian product does exist as the left adjoint is identity on objects.
+moreover it defines a bifunctor on partial functions (a pair is defined from $A \times B$ iff it is on both $A$ and $B$).
+since the left adjoint is a functor, it preserves isomorphisms and commuting diagrams.
+hence the cartesian monoidal structure on sets defines a valid monoidal structure on partial functions!
+this means that we can talk about magmas, semigroups and monoids in it!
+as an aside, the category of partial functions is equivalent to the category of pointed sets (exercise!), and in this equivalence cartesian products correspond to smash products.
 
 a magma in a monoidal category is simply an object $M$ equipped with a morphism $m : M \otimes M \to M$.
 it becomes a semigroup if we impose associativity, which says that the two ways to multiply $m (1 \otimes m), m (m \otimes 1) : M \otimes M \otimes M \to M$ are equal!
